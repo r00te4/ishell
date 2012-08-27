@@ -1,0 +1,42 @@
+ONLY ALIVE ON DOWN
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ i i Insert 
+x delete
+:wq save
+
+dd delete current line
+
+p paste 
+
+hjkl move
+:help find help infomation
+
+
+
+NOT BAD
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+0--- head of line      
+    0--- head of line      
+^--- head of line not blank
+	   ^--- head of line not blank
+$--- end of line
+g--- end of line not blank    
+/pattern --- search pattern
+
+p----paste
+yy---copy ddP
+yy---copy ddP
+
+p----paste
+yy---copy ddP
+yy---copy ddP
+
+u-----undo
+Ctrl+r-----redo
+
+
+:e ---open
+:w ---save
+:saveas  ---saveas
+:x,ZZ,wa ===save and exit
+

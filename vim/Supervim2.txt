@@ -1,0 +1,56 @@
+<action>a<object>========action can be any command d/y/v;
+			object can be w ,W ,s,p or ",',),},]
+<action>i<object>
+(map (+) ("foo")).
+((map (+) ("foo")))
+vi"
+va"
+vi)
+va)
+v2i)
+v2a)
+
+
+nothign is os higth we say some thing here "bug" o we say {echo "nothing"}
+but you never go ,this,this,or this,si so (perfect)
+nothign is os higth we say some thing here "bug" o we say {echo "nothing"}
+nothign is os higth we say some thing here "bug" o we say {echo "nothing"}
+nothign is os higth we say some thing here "bug" o {we say {echo "nothing"}}
+nothign is os higth we say some thing here o we say {echo "nothing"}
+but you never go ,tithis'this'his,this,or this,si so (perfect)
+but you never go ,tithis'this'his,this,or this,si so (perfect)
+but you never go ,this,this,or this,si so (perfect)
+but you never go ,this,this,or this,si so (perfect)
+but you never go ,this,this,or this,si so ()
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<C-v>
+0 <C-v><C-d> I-- [ES]
+^----to the line head
+<C-v>-----start quote operation
+<C-d>-----mov down
+I--[ESC]-----I Insert, "--", ESC 
+0 <C-v><C-d> I{ [ESC]
+$ <C-v><C-d> A{ [ESC] 
+
+ps: In widnows you should use <C-q> Not <C-v>
+{type site=(Int,Int) screenSize=(25,79) }
+{type site=(Int,Int) screenSize=(25,79) }
+{type site=(Int,Int) screenSize=(25,79) }
+{type site=(Int,Int) screenSize=(25,79) }
+{type site=(Int,Int) screenSize=(25,79) }
+kk
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-Lover
+-Like
+Not I'll type :Like
+get
+Get's more
+good
+Go
+Google
+Not I'll type: good
+:w
+

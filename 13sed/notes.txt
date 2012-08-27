@@ -1,0 +1,53 @@
+a===>append
+c===>change
+d===>delete
+i===>insert
+N===>next without write
+n===>next
+p===>print
+q===>quite
+r===>read
+s===>switch
+w===>write
+
+
+controls:
+!(NOT)
+{}===>group
+:label===>position
+b[label]
+t[label]
+
+
+
+cache space:
+g
+G
+h
+H
+x
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+sed '/line/ p' lines==========>print twice if line match
+sed -n '/line/ p' line==========>print only the match line
+sed -n '3,6,p' lines========>print line 3-6
+sed '5 q' lines==========>print 5 lines then quit,here no 'n'
+sed -n -f print3_6 lines========>print use print_36 file.the contents is 3,6,p
+
+
+write file
+a===>2,4 !w temp3
+b===>2,4 w temp2
+c===>s/line/setence w temp1
+
+change file
+a===>2,4, c\ 
+	aaaa\
+	bbbb\
+	cccc.
+b===>s/line/senetenc/p
+
+c===> /this/ i\
+	BEFORE
+d===>/that/ a\
+	AFTER.....
+

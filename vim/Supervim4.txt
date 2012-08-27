@@ -1,0 +1,51 @@
+v,V,<C-v>
+J---join the lines to one line
+<>---tab in
+=-----auto tagin
+<C-v>-----
+$-----to end
+A------add after
+ESC----- ESCAPE
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+#!/usr/bin/env zsh
+echo "Hello" echo "I wiill addd something" echo "in the end of each line" echo "lest do it" echo "C-vG$A>$2[ESC]"  }
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ecoh "hello"}
+echo "I will add something"}
+echo "Lets do it"}
+
+ecoh "hello"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ecoh "hello"} echo "I will add something"} echo "Lets do it"} ecoh "hello"}
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+		ecoh "hello"}
+		echo "I will add something"}
+		echo "Lets do it"}
+
+		ecoh "hello"}
+	ecoh "hello"}
+	echo "I will add something"}
+	echo "Lets do it"}
+
+	def okdef:
+	what okay?
+	so show me 
+	def two:
+	what aht?
+	nothing
+	if done
+	else
+	byebye
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+split & vsplit
+:split/:vsplit-----------crate more screen
+<C-w><dir>--------------hjkl
+<C-w>_---------large size
+<C-w>+-----------add size
+
+let me tray
+Beeter,Strong,Faster

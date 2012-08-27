@@ -1,0 +1,2 @@
+nb2 file is here we 
+open it with 'e'

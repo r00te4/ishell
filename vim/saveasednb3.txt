@@ -1,0 +1,5 @@
+nb2 file is here we 
+open it with 'e'
+i write but this one is
+some time we need save as
+save ased nb3.txt

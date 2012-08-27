@@ -1,0 +1,18 @@
+Do you need super Vim?
+so ...Let's Go Ahead!!!!
+0---go to line head
+$---go to line end
+g_----got to line end not blank
+fa-----next a.alos fs---next s
+t,-------, until ,also t;----until ;
+3fa------ find the third a
+dt"------delete until" in line
+dt{------delete until { in line
+dti------delte utnil i
+show me some "words"
+here olnly let's you 
+seay {nothing }
+is so wrigh
+go go gog 'go g 
+but i'm buffered
+insis "good"

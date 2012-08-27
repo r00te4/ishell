@@ -1,0 +1,46 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+INSERT 
+dfasdfasdflet me go iokay you seee let 't glllllllllllllllllllo only say
+
+iokay you seee
+new line before
+let 't glllllllllllllllllllo
+O is insert a new line before
+only say
+new line after
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+MOVE
+0,^==========>to the head 
+
+$,g_=========>to the end 
+/pattern ============>search
+
+iokay you seee
+new line before
+let 't glllllllllllllllllllo
+O is insert a new line befor        e
+only sa        y     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+COPY&PASTE
+p===>PASTE
+yy===>COPY
+yy===>COPY
+
+yy===>COPY
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+UNDO/REDO
+u=====>undo
+<C-r>=====>redo
+redo some file more 
+here say 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+OPEN/SAVE/EXIT/BUFFER
+:e
+:w
+:saveas
+:x,ZZ,wq
+:q!
+:bn,bp
+

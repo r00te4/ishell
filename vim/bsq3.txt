@@ -1,0 +1,67 @@
+CCODERS USEFULODERS USEFUL
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+%---- match the (,{,[
+*/# ------jump the match
+<start pos><command><end pos>
+0y$=====copy from line head to line end
+ye======coyy from cur to word end
+MORECOPYCOMMANDS
+d----delete
+v----visual,Can Select Anything
+gU----gU,Can Upperase after Select
+gu-----gu,Can Lowercase after Selected
+
+echo {nothing is here}
+echo [let me see an array]
+echo [let me see an array]
+echo [let me see an array]
+echo [let me see an array]
+echo [let me see an array]
+eecho [let me see an array]cho [let me see an array]
+echo (something more)
+nothing 
+nothing 
+nothing 
+echo (somethhinghinghinging more)
+nothing     
+nnothing nothing nothing nothing nothing othing 
+nothing 
+nothing 
+nothing 
+nothing 
+echo nothing (something more)
+nothing     
+echo
+echo
+echo
+echo
+echo (something more)
+nothing 
+nnnothing othing nnothing othing nothing othing 
+nnnothing othing nothing othing 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+LET'S V
+
+echo {nothing is here}
+echo [let me see an array]
+echo [let me see an array]
+echo [let me see an array]
+echo [let me see an array]
+echo [let me see an array]
+eecho [let me see an array]cho [let me see an array]
+echo (something more)
+nothing 
+nothing 
+nothing 
+echo (somethhinghinghinging more)
+
+echo nothing (something more)
+nothing     
+echo
+echo
+echo
+echo
+echo (something more)
+nothing 
+nnnothing othing nnothing othing nothing othing 
+NNNOTHING OTHING NOTHING OTHING 
