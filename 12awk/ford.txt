@@ -1,0 +1,2 @@
+ford	mustang	1965	45	10000
+ford	thundbd	2003	15	10500

@@ -1,0 +1,7 @@
+	{
+	if ($1 ~ /vol/) $1="vvvvvv"
+	if ($1 ~/fo/) $1="ffffffffffute"
+	print
+	}
+
+

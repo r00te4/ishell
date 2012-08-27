@@ -1,0 +1,7 @@
+BEGIN	{OFS="\t"}
+	{
+	if ($1 ~ /vol/) $1="VOL"
+	if ($1 ~ /for/) $1="FORD"
+	print
+	}
+

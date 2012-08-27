@@ -1,0 +1,17 @@
+BEGIN	{
+	yearsum=0;costsum=0
+	newcostsum=0;newcount=0
+	}
+	{
+	 yearsum +=$3
+	 costsum +=$5
+	}
+
+$3>2000 {newcostsum +=$5; newcount++}
+END	{
+	printf "Aver age of cars is %4.1f years\n", 2006-(yearsum/NR)
+	printf "Aver csot of cars is $%7.2f\n",newcostsum/NR
+	printf "Aveage cost of newer cars is $%7.2f\n",newcostsum/newcount
+	}
+
+

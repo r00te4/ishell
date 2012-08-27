@@ -1,0 +1,1 @@
+gawk '{manuf[$5]++} END {for (name in manuf) print name}' cars 

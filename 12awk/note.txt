@@ -1,0 +1,78 @@
+gawk [options] [program] [file-list]
+gawk [options] -f program-file [file-list]
+
+
+pattern { action }
+
+#===>note
+
+functions:
+	length(str)
+	int(num)
+	index(str1,str2)
+	split(str,arr,del)
+	sprintf(fmt,args)
+	substr(str,pos,len)
+	tolower(str)
+	toupper(str)
+
+arrays:
+	array[string]=value
+	for ( elem in array) action
+
+printf "control-string",arg1,arg2,...argn
+
+
+control:
+	if..else
+	if (condition)
+		{commadns}
+	else
+		{commands}
+
+
+
+	whiie
+	while (codition)
+	{commands}
+
+
+	for
+	for (init;codition;increment)
+	{commands}
+	
+	also break&cotinue
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gawk '{ print }' cars===========>print the cars
+gawk '/volvo/ { print }' cars=====>print the cars which lien match 'volvo'
+
+
+gawk '/volvo/ { print $3,$1}' cars=====>print the cars whwich line matchs 'volvo' and only column 3 an dcolumdn 1
+gawk '$1 ~ /^h/' cars====>print the cars which colum1 start with 'h'
+gawk '$3 ~ /[35]$/ {print $3,$1,"$" $5' cars====> print the cars which column3 ends with 3 or 5 
+gawk '$3==1988' cars====>print the cars which column 3 =1988
+gawk '$5<=5000' cars
+gawk "200<=$5 && $5<900' cars===>the right
+gawk '"200"<=$5 && $5<"900"' cars===>the wrong!
+gawk '/volvo/,/ford/' cars=> lines between 'volvo' and 'ford'
+gawk 'NR==3,NR==5' cars===>line fron line3 to line5 
+gawk 'length>24 {print NR}' cars====>print teh line number whick length>24
+gawk -f file1 cars==>print cars with the script file1
+
+
+to change the vlue of line:
+	{
+	if ($1 ~ /vol/) $1="vvvvvvvvvvv"
+	if ($ ~ /fo/)	$1="FFFFFFFFFFFFF"
+	print
+	}
+
+to redirect output:
+	/vol/ {print > "vol.txt"}
+	/ford/	{print>"ford.txt"}
+	END 	{print "done."}
+
+
+aboutarray:
+	gawk '{manuf[$1]++} END {for (x in manuf) print x,manuf[x]}' cars |sort

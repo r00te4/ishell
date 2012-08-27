@@ -1,0 +1,22 @@
+rsync [options] [[user@]from-host:] source-file [[user@]to-host:] destination-file
+
+options lists:
+-A ACL
+-a digui,and cancel the symbol-link,and do not remian the hardk-link
+-b backup ,defualt ~,or define bakcup-dir
+-backup-dir=dir
+--copy-unsafe-links  links,source-file.the true file
+--delete delete the file from dest-file that is not in sour-file
+--devices device,only by root
+--groupt
+--hard-links
+-l links
+-o owner
+-p perms
+-r recursive
+--specials
+--t times
+-u update if dest-file is newer than source-file thant pass
+-v
+-X other attrs
+-z compress them
